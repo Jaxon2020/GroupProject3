@@ -1,7 +1,7 @@
 
-print("Howdy! Welcome to TCMG 412 Team 9 Using Python Project"\n)
-print("This code is intended to analyze and parse a log file and display outputs for total requests made and requests made in the last year (data from 1994)."\n)
-print("Team 9: Juan Quiroz, Jaxon Reeves, Jose Obregon, Joseph Yeh"\n)
+print("Howdy! Welcome to TCMG 412 Team 9 Using Python Project.")
+print("This code is intended to analyze and parse a log file and display outputs for total requests made and requests made in the last year (data from 1994).")
+print("Team 9: Juan Quiroz, Jaxon Reeves, Jose Obregon, Joseph Yeh.")
 
 # The command below opens and reads the log file
 f = open('http_access_log.log', 'r')
@@ -18,5 +18,5 @@ for line in f :
 f.close ()
 
 # The results of the total requests made and total requests made in the last year of 1994 are displayed 
-print("The total requests that has been made is: ", number_of_lines, " and the total request made last year is ", \n)
+print("The total requests that has been made is: ", number_of_lines, " and the total request made last year is ", )
 print("Thank you for running our code! -Team 9")
