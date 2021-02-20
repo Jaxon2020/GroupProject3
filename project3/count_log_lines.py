@@ -17,6 +17,10 @@ for line in f :
 # The log file is closed
 f.close ()
 
+for i in f : 
+    i = count(1995)
+    number_of_lines += 1
+
 # The results of the total requests made and total requests made in the last year of 1994 are displayed 
 print("The total requests that has been made is: ", number_of_lines, " and the total request made last year is ", )
 print("Thank you for running our code! -Team 9")
