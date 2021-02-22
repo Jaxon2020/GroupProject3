@@ -18,14 +18,11 @@ for line in f :
 f.close ()
 
 f = open('http_access_log.log', 'r')
-
-for i in f : 
-    r_f_1995 = 0
-    i = count(1995:)
-    r_f_1995 += 1
-    
+data = f.read()
+occurrences = data.count('1994')
+ 
 f.close ()
 
 # The results of the total requests made and total requests made in the last year of 1994 are displayed 
-print("The total requests that has been made is: ", number_of_lines, " and the total request made last year is ", r_f_1995)
+print("The total requests that has been made is: ", number_of_lines, " and the total request made last year is ", occurrences)
 print("Thank you for running our code! -Team 9")
