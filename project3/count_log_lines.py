@@ -6,7 +6,7 @@ print("Team 9: Juan Quiroz, Jaxon Reeves, Jose Obregon, Joseph Yeh.")
 # The command below opens and reads the log file
 f = open('http_access_log.log', 'r')
 
-# The program then counts the number of lines from 1994
+# Initialize the variables
 number_of_lines= 0
 x= 1994
 count = 0
@@ -14,14 +14,14 @@ count = 0
 for line in f :
     line =line.strip("/n")
     number_of_lines += 1 
-# The log file is closed
-f.close ()
 
+# The program reads and counts the occurences in the past year of 1994
 f = open('http_access_log.log', 'r')
 data = f.read()
 occurrences = data.count('1994')
- 
-f.close ()
+
+# The log file is closed
+f.close()
 
 # The results of the total requests made and total requests made in the last year of 1994 are displayed 
 print("The total requests that has been made is: ", number_of_lines, " and the total request made last year is ", occurrences)
